@@ -1,7 +1,8 @@
 # convertNumbersToThai
 Script JavaScript convertNumbersToThai
 
-```function convertNumbersToThai() {
+```java
+function convertNumbersToThai() {
   const thaiDigits = ["๐", "๑", "๒", "๓", "๔", "๕", "๖", "๗", "๘", "๙"];
   const numberRegex = /\d+/g; // Regular expression เพื่อค้นหาตัวเลข
 
