@@ -1,5 +1,5 @@
 # convertNumbersToThai
-Script JavaScript convertNumbersToThai
+Script JavaScript `thai_number_converter.js`
 
 ```java
 function convertNumbersToThai() {
@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', convertNumbersToThai);
 1. คัดลอกโค้ด : คัดลอกโค้ด JavaScript ด้านบนทั้งหมด
 2. เพิ่มลงในหน้าเว็บ -> คุณสามารถเพิ่มโค้ดนี้ได้ 2 วิธีหลักๆ :
   - แทรกใน <script> tag : วางโค้ดภายใน <script> tag ที่ส่วนท้ายของ <body> หรือใน <head> ของหน้า HTML ของคุณ :
+    
     ```html
     <!DOCTYPE html>
     <html>
@@ -75,7 +76,9 @@ document.addEventListener('DOMContentLoaded', convertNumbersToThai);
     </body>
     </html>
     ```
-  - สร้างไฟล์ JavaScript ภายนอก : บันทึกโค้ดเป็นไฟล์ .js เช่น thai_number_converter.js ลิงก์ไฟล์ JavaScript นี้ในส่วน <head> หรือก่อนปิด <body> ของหน้า HTML :
+    
+  - สร้างไฟล์ JavaScript ภายนอก : บันทึกโค้ดเป็นไฟล์ .js เช่น `thai_number_converter.js` ลิงก์ไฟล์ JavaScript นี้ในส่วน `<head>` หรือก่อนปิด `<body>` ของหน้า HTML :
+    
     ```html
     <!DOCTYPE html>
     <html>
