@@ -49,6 +49,7 @@ function convertNumbersToThai() {
 // เรียกฟังก์ชันเมื่อ DOM โหลดเสร็จแล้ว
 document.addEventListener('DOMContentLoaded', convertNumbersToThai);
 ```
+
 ## วิธีการใช้งาน :
 
 1. คัดลอกโค้ด : คัดลอกโค้ด JavaScript ด้านบนทั้งหมด
@@ -74,7 +75,7 @@ document.addEventListener('DOMContentLoaded', convertNumbersToThai);
     </body>
     </html>
     ```
-    - สร้างไฟล์ JavaScript ภายนอก : บันทึกโค้ดเป็นไฟล์ .js เช่น thai_number_converter.js ลิงก์ไฟล์ JavaScript นี้ในส่วน <head> หรือก่อนปิด <body> ของหน้า HTML :
+  - สร้างไฟล์ JavaScript ภายนอก : บันทึกโค้ดเป็นไฟล์ .js เช่น thai_number_converter.js ลิงก์ไฟล์ JavaScript นี้ในส่วน <head> หรือก่อนปิด <body> ของหน้า HTML :
     ```html
     <!DOCTYPE html>
     <html>
@@ -88,8 +89,8 @@ document.addEventListener('DOMContentLoaded', convertNumbersToThai);
     </body>
     </html>
     ```
-**คำอธิบายการทำงานของสคริปต์ :**
 
+**คำอธิบายการทำงานของสคริปต์ :**
 1. **thaiDigits Array** : เก็บตัวเลขไทยตั้งแต่ ๐ ถึง ๙
 2. **numberRegex** : `Regular expression /\d+/g` ใช้เพื่อค้นหาตัวเลขที่เป็นชุด (หนึ่งตัวขึ้นไป) ทั่วทั้งข้อความ
 3. **replaceNumbers(node) Function** :
